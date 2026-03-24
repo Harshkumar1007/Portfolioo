@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Kumar | Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Harsh Kumar, a Computer Science student and Full Stack Developer.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Devicon for Tech Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Harsh<span>.dev</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+
+                <li><a href="#contact" class="btn btn-outline">Contact</a></li>
+            </ul>
+
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certificates</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero section section-animate">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <a href="#contact" class="status-indicator" style="margin-top: 0; margin-bottom: 2rem; text-decoration: none; display: inline-flex;">
+                    <div class="status-dot pulse"></div>
+                    <span>Open to Work</span>
+                </a>
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="hero-title">Harsh Kumar.</h1>
+                <h2 class="hero-subtitle"><span id="typewriter"></span><span class="cursor">|</span></h2>
+                <p class="hero-desc">
+                    I enjoy building practical applications and solving algorithmic problems. Passionate about creating technology solutions that solve real-world problems.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="harsh-kumar-cv.pdf" target="_blank" class="btn btn-outline">View Resume</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container card" style="padding: 10px; background: transparent; border: none; box-shadow: none;">
+                <div class="hero-image-wrapper">
+                    <img src="profile.png" alt="Harsh Kumar" class="hero-image">
+                    <div class="hero-image-backdrop"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section section-animate">
+        <div class="about-grid">
+            <!-- Left Side -->
+            <div class="about-left">
+                <div class="about-tag">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    <span>DISCOVERY</span>
+                </div>
+                
+                <h2 class="about-heading">About <span class="highlight">Me</span></h2>
+                
+                <div class="about-text-box card">
+                    <div class="about-text-glow"></div>
+                    <p class="about-italic" style="margin-bottom: 1rem;">
+                        I'm Harsh Kumar, a passionate Full-Stack Developer specializing in seamless Frontend Interfaces, Backend Architecture, and robust Data Structures. I craft scalable web applications using React.js and Node.js alongside SQL and NoSQL data layers.
+                    </p>
+                    <p class="about-italic" style="margin-bottom: 0;">
+                        I love building real-world platforms that solve meaningful problems. Driven by continuous learning and a collaborative mindset, I deliver robust, user-centric solutions.
+                    </p>
+                    <svg class="about-sparkle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4L12 2z"></path></svg>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3 class="stat-number">250<span>+</span></h3>
+                        <span class="stat-label">PROBLEMS SOLVED</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">5<span>+</span></h3>
+                        <span class="stat-label">PROJECTS BUILT</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">10<span>+</span></h3>
+                        <span class="stat-label">TECHNOLOGIES</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Side -->
+            <div class="about-right">
+                <div class="about-image-wrapper">
+                    <div class="image-border"></div>
+                    <img src="about-profile.jpeg" alt="Harsh Kumar" class="about-image">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-animate">
+        <div class="section-header center">
+            <h2 class="section-title">The Tech Stack</h2>
+            <div class="divider center"></div>
+        </div>
+
+        <div class="marquee-wrapper fade-in delay-1">
+            <!-- Row 1: Programs & Basics moving left -->
+            <div class="marquee-row">
+                <div class="marquee-content slide-left">
+                    <div class="tech-card">
+                        <i class="devicon-javascript-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">JAVASCRIPT</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-java-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">JAVA</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-cplusplus-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">C++</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-php-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">PHP</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-c-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">C</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-bash-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">BASH</span>
+                            <span class="tech-subtitle">SCRIPTING</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-git-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">GIT</span>
+                            <span class="tech-subtitle">VERSION CONTROL</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-github-original colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">GITHUB</span>
+                            <span class="tech-subtitle">PLATFORM</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-nodejs-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">NODE JS</span>
+                            <span class="tech-subtitle">RUNTIME</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-react-original colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">REACT</span>
+                            <span class="tech-subtitle">LIBRARY</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-express-original colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">EXPRESS JS</span>
+                            <span class="tech-subtitle">FRAMEWORK</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duplicate array for infinite scroll -->
+                <div class="marquee-content slide-left" aria-hidden="true">
+                    <div class="tech-card">
+                        <i class="devicon-javascript-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">JAVASCRIPT</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-java-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">JAVA</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-cplusplus-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">C++</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-php-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">PHP</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-c-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">C</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-bash-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">BASH</span>
+                            <span class="tech-subtitle">SCRIPTING</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-git-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">GIT</span>
+                            <span class="tech-subtitle">VERSION CONTROL</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-github-original colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">GITHUB</span>
+                            <span class="tech-subtitle">PLATFORM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Row 2: Web Dev & Databases moving right -->
+            <div class="marquee-row mt-4">
+                <div class="marquee-content slide-right">
+                    <div class="tech-card">
+                        <i class="devicon-html5-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">HTML</span>
+                            <span class="tech-subtitle">MARKUP</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-css3-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">CSS</span>
+                            <span class="tech-subtitle">STYLING</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-tailwindcss-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">TAILWIND</span>
+                            <span class="tech-subtitle">CSS FRAMEWORK</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-jquery-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">JQUERY</span>
+                            <span class="tech-subtitle">LIBRARY</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-laravel-original colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">LARAVEL</span>
+                            <span class="tech-subtitle">WEB FRAMEWORK</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-mysql-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">MYSQL</span>
+                            <span class="tech-subtitle">DATABASE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-amazonwebservices-plain-wordmark colored tech-icon" style="font-size: 2.5rem;"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">AWS</span>
+                            <span class="tech-subtitle">CLOUD PLATFORM</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-vscode-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">VS CODE</span>
+                            <span class="tech-subtitle">CODE EDITOR</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-python-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">PYTHON</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-mongodb-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">MONGODB</span>
+                            <span class="tech-subtitle">DATABASE</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duplicate array for infinite scroll -->
+                <div class="marquee-content slide-right" aria-hidden="true">
+                    <div class="tech-card">
+                        <i class="devicon-html5-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">HTML</span>
+                            <span class="tech-subtitle">MARKUP</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-css3-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">CSS</span>
+                            <span class="tech-subtitle">STYLING</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-tailwindcss-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">TAILWIND</span>
+                            <span class="tech-subtitle">CSS FRAMEWORK</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-jquery-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">JQUERY</span>
+                            <span class="tech-subtitle">LIBRARY</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-laravel-original colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">LARAVEL</span>
+                            <span class="tech-subtitle">WEB FRAMEWORK</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-mysql-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">MYSQL</span>
+                            <span class="tech-subtitle">DATABASE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-amazonwebservices-plain-wordmark colored tech-icon" style="font-size: 2.5rem;"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">AWS</span>
+                            <span class="tech-subtitle">CLOUD PLATFORM</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-vscode-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">VS CODE</span>
+                            <span class="tech-subtitle">CODE EDITOR</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-python-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">PYTHON</span>
+                            <span class="tech-subtitle">LANGUAGE</span>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="devicon-mongodb-plain colored tech-icon"></i>
+                        <div class="tech-info">
+                            <span class="tech-name">MONGODB</span>
+                            <span class="tech-subtitle">DATABASE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section (Recreated from image) -->
+    <section id="education" class="section section-animate" style="padding-top: 5rem; padding-bottom: 5rem;">
+        <div class="edu-top-header" style="text-align: center; margin-bottom: 5rem;">
+            <span style="font-size: 0.85rem; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 0.5rem;">EDUCATION</span>
+            <h2 style="font-size: 3.5rem; color: #fff; font-weight: 800; margin: 0; line-height: 1.2;">Academic <span style="color: #ec4899; font-style: italic; font-weight: 800;">Background</span></h2>
+        </div>
+
+        <div class="centered-timeline-container" style="position: relative; max-width: 900px; margin: 0 auto; padding: 2rem 0;">
+            <!-- Center Line -->
+            <div class="ctime-line" style="position: absolute; top: 0; bottom: 0; left: 50%; width: 2px; background: linear-gradient(to bottom, transparent, #a855f7 10%, #ec4899 50%, #3b82f6 90%, transparent); transform: translateX(-50%); opacity: 0.5; z-index: 1;"></div>
+
+            <!-- Item 1: LPU (Left) -->
+            <div class="ctime-item left" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6rem; position: relative; z-index: 2;">
+                <!-- Content Left -->
+                <div class="ctime-content fade-in" style="width: 42%; text-align: right; padding-right: 2rem;">
+                    <div style="font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 0.5rem;">AUG 2023 - PRESENT</div>
+                    <h3 style="font-size: 1.5rem; color: #f8fafc; font-weight: 800; margin-bottom: 0.3rem;">Lovely Professional University</h3>
+                    <h4 style="font-size: 1.1rem; color: #e2e8f0; font-weight: 700; margin-bottom: 0.3rem;">Bachelor of Technology</h4>
+                    <p style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.8rem;">Computer Science and Engineering</p>
+                    <div style="display: flex; align-items: center; justify-content: flex-end; gap: 0.4rem; color: #64748b; font-size: 0.85rem; margin-bottom: 1.2rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Punjab, India
+                    </div>
+                    <span style="display: inline-block; padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.75rem; font-weight: 700; border: 1px solid rgba(168,85,247,0.4); color: #c084fc; background: rgba(168,85,247,0.05);">CGPA: 7.35</span>
+                </div>
+                <!-- Center Dot -->
+                <div class="ctime-dot scale-in delay-1" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 45px; height: 45px; border-radius: 50%; background: #0f172a; display: flex; align-items: center; justify-content: center; border: 2px solid #a855f7; box-shadow: 0 0 20px rgba(168, 85, 247, 0.6); z-index: 2;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <!-- Empty Right -->
+                <div style="width: 42%;"></div>
+            </div>
+
+            <!-- Item 2: BSEB (Right) -->
+            <div class="ctime-item right" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6rem; position: relative; z-index: 2;">
+                <!-- Empty Left -->
+                <div style="width: 42%;"></div>
+                <!-- Center Dot -->
+                <div class="ctime-dot scale-in delay-2" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 45px; height: 45px; border-radius: 50%; background: #0f172a; display: flex; align-items: center; justify-content: center; border: 2px solid #ec4899; box-shadow: 0 0 20px rgba(236, 72, 153, 0.6); z-index: 2;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <!-- Content Right -->
+                <div class="ctime-content fade-in" style="width: 42%; text-align: left; padding-left: 2rem;">
+                    <div style="font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 0.5rem;">MAR 2021 - MAY 2023</div>
+                    <h3 style="font-size: 1.5rem; color: #f8fafc; font-weight: 800; margin-bottom: 0.3rem;">Bihar School Examination Board</h3>
+                    <h4 style="font-size: 1.1rem; color: #e2e8f0; font-weight: 700; margin-bottom: 0.3rem;">Intermediate (12th)</h4>
+                    <p style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.8rem;">Science Stream (PCM)</p>
+                    <div style="display: flex; align-items: center; justify-content: flex-start; gap: 0.4rem; color: #64748b; font-size: 0.85rem; margin-bottom: 1.2rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Aurangabad, Bihar
+                    </div>
+                    <span style="display: inline-block; padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.75rem; font-weight: 700; border: 1px solid rgba(236,72,153,0.4); color: #f472b6; background: rgba(236,72,153,0.05);">Percentage: 77%</span>
+                </div>
+            </div>
+
+            <!-- Item 3: Vivekanand (Left) -->
+            <div class="ctime-item left" style="display: flex; justify-content: space-between; align-items: flex-start; position: relative; z-index: 2;">
+                <!-- Content Left -->
+                <div class="ctime-content fade-in delay-1" style="width: 42%; text-align: right; padding-right: 2rem;">
+                    <div style="font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 0.5rem;">MAR 2020 - MAY 2021</div>
+                    <h3 style="font-size: 1.5rem; color: #f8fafc; font-weight: 800; margin-bottom: 0.3rem;">Vivekanand Mission School</h3>
+                    <h4 style="font-size: 1.1rem; color: #e2e8f0; font-weight: 700; margin-bottom: 0.3rem;">Matriculation (10th)</h4>
+                    <p style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.8rem;">General</p>
+                    <div style="display: flex; align-items: center; justify-content: flex-end; gap: 0.4rem; color: #64748b; font-size: 0.85rem; margin-bottom: 1.2rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Aurangabad, Bihar
+                    </div>
+                    <span style="display: inline-block; padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.75rem; font-weight: 700; border: 1px solid rgba(59,130,246,0.4); color: #60a5fa; background: rgba(59,130,246,0.05);">Percentage: 68%</span>
+                </div>
+                <!-- Center Dot -->
+                <div class="ctime-dot scale-in delay-3" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 45px; height: 45px; border-radius: 50%; background: #0f172a; display: flex; align-items: center; justify-content: center; border: 2px solid #3b82f6; box-shadow: 0 0 20px rgba(59, 130, 246, 0.6); z-index: 2;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <!-- Empty Right -->
+                <div style="width: 42%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements Section -->
+    <section id="certifications" class="section section-animate" style="padding-top: 5rem; padding-bottom: 5rem;">
+        <div class="edu-top-header" style="text-align: center; margin-bottom: 5rem;">
+            <span style="font-size: 0.85rem; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 0.5rem;">CERTIFICATIONS</span>
+            <h2 style="font-size: 3.5rem; color: #fff; font-weight: 800; margin: 0; line-height: 1.2;">Licenses & <span style="color: #10b981; font-style: italic; font-weight: 800;">Training</span></h2>
+        </div>
+
+        <div class="centered-timeline-container" style="position: relative; max-width: 900px; margin: 0 auto; padding: 2rem 0;">
+            <!-- Center Line -->
+            <div class="ctime-line" style="position: absolute; top: 0; bottom: 0; left: 50%; width: 2px; background: linear-gradient(to bottom, transparent, #3b82f6 10%, #10b981 50%, #f59e0b 90%, transparent); transform: translateX(-50%); opacity: 0.5; z-index: 1;"></div>
+
+            <!-- Item 1: LPU (Left) -->
+            <div class="ctime-item left" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6rem; position: relative; z-index: 2;">
+                <!-- Content Left -->
+                <div class="ctime-content fade-in" style="width: 42%; text-align: right; padding-right: 2rem;">
+                    <div style="font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 0.5rem;">JAN 2025 - FEB 2025</div>
+                    <h3 style="font-size: 1.5rem; color: #f8fafc; font-weight: 800; margin-bottom: 0.3rem;">Lovely Professional University</h3>
+                    <h4 style="font-size: 1.1rem; color: #e2e8f0; font-weight: 700; margin-bottom: 0.3rem;">Fundamentals of Data Structures</h4>
+                    <p style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.8rem;">Learn, Apply & Build Projects</p>
+                    <div style="display: flex; align-items: center; justify-content: flex-end; gap: 0.4rem; color: #64748b; font-size: 0.85rem; margin-bottom: 1.2rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Skill Development
+                    </div>
+                    <a href="https://drive.google.com/file/d/13Qv7RtUSzexlWk5qZK2n9Z9BH1-vZOJR/view?usp=sharing" target="_blank" class="btn btn-outline" style="padding: 0.4rem 1.2rem; font-size: 0.8rem; margin-top: 0.5rem; display: inline-block; border-color: rgba(59,130,246,0.6); color: #60a5fa;">View Certificate</a>
+                </div>
+                <!-- Center Dot -->
+                <div class="ctime-dot scale-in delay-1" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 45px; height: 45px; border-radius: 50%; background: #0f172a; display: flex; align-items: center; justify-content: center; border: 2px solid #3b82f6; box-shadow: 0 0 20px rgba(59, 130, 246, 0.6); z-index: 2;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                </div>
+                <!-- Empty Right -->
+                <div style="width: 42%;"></div>
+            </div>
+
+            <!-- Item 2: Infosys (Right) -->
+            <div class="ctime-item right" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6rem; position: relative; z-index: 2;">
+                <!-- Empty Left -->
+                <div style="width: 42%;"></div>
+                <!-- Center Dot -->
+                <div class="ctime-dot scale-in delay-2" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 45px; height: 45px; border-radius: 50%; background: #0f172a; display: flex; align-items: center; justify-content: center; border: 2px solid #10b981; box-shadow: 0 0 20px rgba(16, 185, 129, 0.6); z-index: 2;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                </div>
+                <!-- Content Right -->
+                <div class="ctime-content fade-in" style="width: 42%; text-align: left; padding-left: 2rem;">
+                    <div style="font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 0.5rem;">NOV 2025</div>
+                    <h3 style="font-size: 1.5rem; color: #f8fafc; font-weight: 800; margin-bottom: 0.3rem;">INFOSYS</h3>
+                    <h4 style="font-size: 1.1rem; color: #e2e8f0; font-weight: 700; margin-bottom: 0.3rem;">ChatGPT-4 Prompt Engineering</h4>
+                    <p style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.8rem;">Generative AI & LLMs</p>
+                    <div style="display: flex; align-items: center; justify-content: flex-start; gap: 0.4rem; color: #64748b; font-size: 0.85rem; margin-bottom: 1.2rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Professional Certificate
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ncL5tdYvgAxLKHa3oraA7TStukjSZdEx/view?usp=sharing" target="_blank" class="btn btn-outline" style="padding: 0.4rem 1.2rem; font-size: 0.8rem; margin-top: 0.5rem; display: inline-block; border-color: rgba(16, 185, 129, 0.6); color: #34d399;">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Item 3: NPTEL (Left) -->
+            <div class="ctime-item left" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6rem; position: relative; z-index: 2;">
+                <!-- Content Left -->
+                <div class="ctime-content fade-in delay-1" style="width: 42%; text-align: right; padding-right: 2rem;">
+                    <div style="font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 0.5rem;">NOV 2025</div>
+                    <h3 style="font-size: 1.5rem; color: #f8fafc; font-weight: 800; margin-bottom: 0.3rem;">NPTEL</h3>
+                    <h4 style="font-size: 1.1rem; color: #e2e8f0; font-weight: 700; margin-bottom: 0.3rem;">Privacy & Security in Online Social Media</h4>
+                    <p style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.8rem;">Security Training</p>
+                    <div style="display: flex; align-items: center; justify-content: flex-end; gap: 0.4rem; color: #64748b; font-size: 0.85rem; margin-bottom: 1.2rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Certification
+                    </div>
+                    <a href="https://drive.google.com/file/d/1rFvaAj81YfbZy1tOXMylKLsc0j2Kvcn4/view?usp=sharing" target="_blank" class="btn btn-outline" style="padding: 0.4rem 1.2rem; font-size: 0.8rem; margin-top: 0.5rem; display: inline-block; border-color: rgba(139, 92, 246, 0.6); color: #a78bfa;">View Certificate</a>
+                </div>
+                <!-- Center Dot -->
+                <div class="ctime-dot scale-in delay-3" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 45px; height: 45px; border-radius: 50%; background: #0f172a; display: flex; align-items: center; justify-content: center; border: 2px solid #8b5cf6; box-shadow: 0 0 20px rgba(139, 92, 246, 0.6); z-index: 2;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                </div>
+                <!-- Empty Right -->
+                <div style="width: 42%;"></div>
+            </div>
+
+            <!-- Item 4: Google (Right) -->
+            <div class="ctime-item right" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4rem; position: relative; z-index: 2;">
+                <!-- Empty Left -->
+                <div style="width: 42%;"></div>
+                <!-- Center Dot -->
+                <div class="ctime-dot scale-in delay-2" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 45px; height: 45px; border-radius: 50%; background: #0f172a; display: flex; align-items: center; justify-content: center; border: 2px solid #f59e0b; box-shadow: 0 0 20px rgba(245, 158, 11, 0.6); z-index: 2;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                </div>
+                <!-- Content Right -->
+                <div class="ctime-content fade-in delay-1" style="width: 42%; text-align: left; padding-left: 2rem;">
+                    <div style="font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 0.5rem;">MAR 2024</div>
+                    <h3 style="font-size: 1.5rem; color: #f8fafc; font-weight: 800; margin-bottom: 0.3rem;">Google</h3>
+                    <h4 style="font-size: 1.1rem; color: #e2e8f0; font-weight: 700; margin-bottom: 0.3rem;">Bits & Bytes of Computer Networking</h4>
+                    <p style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.8rem;">Advanced Infrastructure</p>
+                    <div style="display: flex; align-items: center; justify-content: flex-start; gap: 0.4rem; color: #64748b; font-size: 0.85rem; margin-bottom: 1.2rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Professional Certificate
+                    </div>
+                    <a href="https://drive.google.com/file/d/1HXdXh_mGROlzOT6g5jgUpL7Qgf9SHiqK/view?usp=sharing" target="_blank" class="btn btn-outline" style="padding: 0.4rem 1.2rem; font-size: 0.8rem; margin-top: 0.5rem; display: inline-block; border-color: rgba(245, 158, 11, 0.6); color: #fbbf24;">View Certificate</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-header center" style="margin-top: 5rem;">
+            <h2 class="section-title" style="font-size: 2.2rem;">Key Achievements</h2>
+            <div class="divider center"></div>
+        </div>
+        <div class="achievement-list" style="max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+            <div class="achievement-card card" style="background: rgba(15, 23, 42, 0.4);">
+                <div class="ach-icon">💡</div>
+                <p><strong>Solved 250+ coding problems</strong> across major platforms like LeetCode, GFG, and HackerRank.</p>
+            </div>
+            <div class="achievement-card card" style="background: rgba(15, 23, 42, 0.4);">
+                <div class="ach-icon">🛡️</div>
+                <p><strong>Cybersecurity Conference:</strong> Joined North India's tech cybersecurity sessions led by CompTIA.</p>
+            </div>
+            <div class="achievement-card card" style="background: rgba(15, 23, 42, 0.4);">
+                <div class="ach-icon">🧠</div>
+                <p><strong>Adaptable Problem Solver:</strong> Recognized for strong programming fundamentals and robust solutions.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section section-animate">
+        <div class="section-header">
+            <h2 class="section-title">Projects</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card scale-in">
+                <div class="project-content">
+                    <span class="project-overline">MERN Stack</span>
+                    <h3 class="project-title">Training Center Management</h3>
+                    <div class="project-desc">
+                        <p>A full-stack training management platform enabling user authentication, skill-based course browsing, and progress tracking.</p>
+                        <ul class="feature-list">
+                            <li>Role-based access control with secure admin-side CRUD operations</li>
+                            <li>Designed RESTful APIs and optimized MongoDB schema</li>
+                            <li>Reduced data retrieval time by 30% through structured handling</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>MongoDB</span>
+                        <span>ExpressJS</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="project-actions mt-4" style="display: flex; gap: 1rem;">
+                        <a href="https://github.com/Harshkumar1007/SkillBridge" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">GitHub</a>
+                        <a href="#" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card scale-in delay-1">
+                <div class="project-content">
+                    <span class="project-overline">Vanilla Web App</span>
+                    <h3 class="project-title">App-Recommendation System</h3>
+                    <div class="project-desc">
+                        <p>A conversational app-recommendation web application featuring intelligent category detection and multi-category support.</p>
+                        <ul class="feature-list">
+                            <li>End-to-end user interaction flow with mock API-driven engine</li>
+                            <li>Keyword mapping and dynamic follow-up questioning</li>
+                            <li>Typing indicators, character counters, and chatbots</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-actions mt-4" style="display: flex; gap: 1rem;">
+                        <a href="https://github.com/Harshkumar1007/CHATBOT-FOR-APP-SUGGESTION" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">GitHub</a>
+                        <a href="#" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card scale-in delay-2">
+                <div class="project-content">
+                    <span class="project-overline">Full-stack Website</span>
+                    <h3 class="project-title">Eco Recycle E-waste System</h3>
+                    <div class="project-desc">
+                        <p>A centralized platform promoting proper electronic waste management practices with facility lookup and resource tracking.</p>
+                        <ul class="feature-list">
+                            <li>Backend logic with secure DBMS interactions (Prepared Statements)</li>
+                            <li>E-waste tracking and valuation for precious metal values</li>
+                            <li>Responsive front-end pages for facility guidelines</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+                    <div class="project-actions mt-4" style="display: flex; gap: 1rem;">
+                        <a href="https://github.com/Harshkumar1007/E-WASTE-FACILITY-LOCATOR" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">GitHub</a>
+                        <a href="#" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-animate" style="padding-top: 5rem; padding-bottom: 10rem;">
+        <div class="section-header center">
+            <h2 class="section-title" style="font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 800;">Let's <span class="highlight" style="color: var(--accent-primary);">Connect</span></h2>
+            <p class="contact-subtitle mt-4" style="max-width: 600px; margin-left: auto; margin-right: auto; text-align: center; color: var(--text-muted);">
+                Have a project in mind or just want to say hi? I'm always open to discussing new opportunities and creative ideas.
+            </p>
+        </div>
+        
+        <div class="contact-grid mt-8">
+            <!-- Left Side: Message Form -->
+            <div class="contact-left">
+                <div class="contact-form-container card">
+                    <div class="contact-glow"></div>
+                    <h3 style="font-size: 1.8rem; color: var(--text-main); margin-bottom: 0.2rem;">Send a Message</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem;">I'll get back to you within 24 hours.</p>
+                    
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                YOUR NAME
+                            </label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                YOUR EMAIL
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                YOUR MESSAGE
+                            </label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit mt-4">
+                            SEND MESSAGE
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Right Side: Direct Contact -->
+            <div class="contact-right">
+                <div class="contact-info-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    <h3>Direct Contact</h3>
+                </div>
+                
+                <div class="info-cards">
+                    <a href="mailto:ayushraj1y2@gmail.com" class="info-card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="info-label">EMAIL</span>
+                            <span class="info-value">ayushraj1y2@gmail.com</span>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+919102853548" class="info-card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="info-label">PHONE</span>
+                            <span class="info-value">+91-9102853548</span>
+                        </div>
+                    </a>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="info-label">LOCATION</span>
+                            <span class="info-value">Punjab, India</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-social-header mt-8">
+                    <h3>Social Presence</h3>
+                </div>
+                
+                <div class="contact-socials">
+                    <a href="https://github.com/Harshkumar1007" target="_blank" class="social-box" title="GitHub">
+                        <i class="devicon-github-original" style="font-size: 1.5rem; color: var(--accent-primary);"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harsh-kumar-sharmaaa/" target="_blank" class="social-box" title="LinkedIn">
+                        <i class="devicon-linkedin-plain" style="font-size: 1.5rem; color: #3b82f6;"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-box" title="Development/LeetCode">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </a>
+                    <a href="mailto:ayushraj1y2@gmail.com" class="social-box" title="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                    <a href="https://wa.me/919102853548" target="_blank" class="social-box" title="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Animated Wave Decor -->
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+            </svg>
+        </div>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#home" class="logo">Harsh<span>.dev</span></a>
+                <p>Building practical applications and solving algorithmic problems with clean code and modern design.</p>
+                <div class="status-indicator mt-4">
+                    <div class="status-dot pulse"></div>
+                    <span>Available for new opportunities</span>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/Harshkumar1007" target="_blank" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/harsh-kumar-sharmaaa/" target="_blank" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="mailto:ayushraj1y2@gmail.com" title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-content">
+                <p>Designed & Built with <span class="heart">❤️</span> by <a href="#home" class="footer-name-link">Harsh Kumar</a></p>
+                <p class="footer-subtext">© <span id="current-year">2026</span> All Rights Reserved.</p>
+            </div>
+            <a href="#home" class="back-to-top" title="Back to Top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
